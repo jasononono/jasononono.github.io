@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jason Liao</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <svg style="display: none;">
+        <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+        </symbol>
+        <symbol id="icon-cpp" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M27.6947 22.9999C27.883 22.6617 28 22.2807 28 21.9385V10.0613C28 9.71913 27.8831 9.33818 27.6947 9L16 16L27.6947 22.9999Z" fill="#00599C"></path> <path d="M17.0395 29.7433L26.9611 23.8047C27.2469 23.6336 27.5067 23.3382 27.695 23L16.0003 16L4.30566 23C4.49398 23.3382 4.75382 23.6337 5.03955 23.8047L14.9611 29.7433C15.5326 30.0855 16.468 30.0855 17.0395 29.7433Z" fill="#004482"></path> <path d="M27.6947 8.99996C27.5064 8.6617 27.2465 8.36629 26.9608 8.19521L17.0392 2.25662C16.4677 1.91446 15.5323 1.91446 14.9608 2.25662L5.03922 8.19521C4.46761 8.53729 4 9.37709 4 10.0613V21.9386C4 22.2807 4.11694 22.6618 4.30533 23L16 16L27.6947 8.99996Z" fill="#659AD2"></path> <path d="M16.0385 24C11.6061 24 8 20.4112 8 16C8 11.5888 11.6061 8 16.0385 8C18.8458 8 21.4674 9.47569 22.919 11.8618L19.4765 13.9265C18.7492 12.736 17.4399 12 16.0385 12C13.8222 12 12.0193 13.7944 12.0193 16C12.0193 18.2056 13.8222 20 16.0385 20C17.4362 20 18.7421 19.2681 19.4707 18.0832L22.9205 20.1359C21.4692 22.5234 18.8467 24 16.0385 24Z" fill="white"></path> <path d="M23 15.4948H21.9999V14.5H21.0001V15.4948H20V16.4895H21.0001V17.4844H21.9999V16.4895H23V15.4948Z" fill="white"></path> <path d="M27 15.5H25.9999V14.5H25.0001V15.5H24V16.4999H25.0001V17.5H25.9999V16.4999H27V15.5Z" fill="white"></path> </g>
+        </symbol>
+        <symbol id="icon-python" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0164 2C10.8193 2 9.03825 3.72453 9.03825 5.85185V8.51852H15.9235V9.25926H5.97814C3.78107 9.25926 2 10.9838 2 13.1111L2 18.8889C2 21.0162 3.78107 22.7407 5.97814 22.7407H8.27322V19.4815C8.27322 17.3542 10.0543 15.6296 12.2514 15.6296H19.5956C21.4547 15.6296 22.9617 14.1704 22.9617 12.3704V5.85185C22.9617 3.72453 21.1807 2 18.9836 2H13.0164ZM12.0984 6.74074C12.8589 6.74074 13.4754 6.14378 13.4754 5.40741C13.4754 4.67103 12.8589 4.07407 12.0984 4.07407C11.3378 4.07407 10.7213 4.67103 10.7213 5.40741C10.7213 6.14378 11.3378 6.74074 12.0984 6.74074Z" fill="#327EBD"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9834 30C21.1805 30 22.9616 28.2755 22.9616 26.1482V23.4815L16.0763 23.4815L16.0763 22.7408L26.0217 22.7408C28.2188 22.7408 29.9998 21.0162 29.9998 18.8889V13.1111C29.9998 10.9838 28.2188 9.25928 26.0217 9.25928L23.7266 9.25928V12.5185C23.7266 14.6459 21.9455 16.3704 19.7485 16.3704L12.4042 16.3704C10.5451 16.3704 9.03809 17.8296 9.03809 19.6296L9.03809 26.1482C9.03809 28.2755 10.8192 30 13.0162 30H18.9834ZM19.9015 25.2593C19.1409 25.2593 18.5244 25.8562 18.5244 26.5926C18.5244 27.329 19.1409 27.9259 19.9015 27.9259C20.662 27.9259 21.2785 27.329 21.2785 26.5926C21.2785 25.8562 20.662 25.2593 19.9015 25.2593Z" fill="#F9C600"></path> </g>
+        </symbol>
+        <symbol id="icon-href" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 4L12 12M20 4V8.5M20 4H15.5M19 12.5V16.8C19 17.9201 19 18.4802 18.782 18.908C18.5903 19.2843 18.2843 19.5903 17.908 19.782C17.4802 20 16.9201 20 15.8 20H7.2C6.0799 20 5.51984 20 5.09202 19.782C4.71569 19.5903 4.40973 19.2843 4.21799 18.908C4 18.4802 4 17.9201 4 16.8V8.2C4 7.0799 4 6.51984 4.21799 6.09202C4.40973 5.71569 4.71569 5.40973 5.09202 5.21799C5.51984 5 6.07989 5 7.2 5H11.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+        </symbol>
+        <symbol id="icon-discord" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"></path> </g>
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>github [#142]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]"> </path> </g> </g> </g> </g>
+        </symbol>
+        <symbol id="icon-devpost" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595zm2.517 2.449v7.714h1.241c2.646 0 3.862-1.55 3.862-3.861.009-2.569-1.096-3.853-3.767-3.853z"></path></g>
+        </symbol>
+        <symbol id="icon-mail" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+        </symbol>
+        <symbol id="icon-location" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"></path> </g>
+        </symbol>
+        <symbol id="icon-star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 4 .005 7.993m0 0 7.603-2.465m-7.603 2.465 4.697 6.48m-4.697-6.48-4.707 6.48m4.707-6.48L4.392 9.528"></path> </g>
+        </symbol>
+    </svg>
+</head>
+<body>
+    <main id="main">
+        <div id="num-grid">
+            <div class="num"></div>
+        </div>
+        <div id="banner">
+            <div id="banner-title">
+                <p id="intro">hi, I am</p>
+                <div id="name-section">
+                    <p id="name">
+                        Wendi (Jason) Liao
+                    </p>
+                    <p id="location">
+                        <svg class="icon-location"><use href="#icon-location"/></svg>
+                        Waterloo ON
+                    </p>
+                </div>
+                <hr class="h">
+                <p id="desc">
+                    I build by dedicating my ethusiasm to every stroke of the bigger picture.
+                </p>
+                <div class="entry">
+                    <div class="entry-box">
+                        <p class="entry-title">INTERESTS</p>
+                    </div>
+                    <p class="entry-desc">
+                        Systems programming, competitive programming, machine learning
+                    </p>
+                </div>
+                <div class="entry">
+                    <div class="entry-box">
+                        <p class="entry-title">EDUCATION</p>
+                    </div>
+                    <p class="entry-desc">
+                        Grade 11 @ LHSS
+                    </p>
+                </div>
+            </div>
+            <div id="nav-bar">
+                <div class="button-outline">
+                    <button type="button" class="button link-button" id="aboutme-button">
+                        more about me
+                        <svg class="icon-arrow"><use href="#icon-arrow"/></svg>
+                    </button>
+                </div>
+                <div class="button-outline">
+                    <button type="button"  class="button link-button" id="projects-button">
+                        projects
+                        <svg class="icon-arrow"><use href="#icon-arrow"/></svg>
+                    </button>
+                </div>
+                <div class="button-outline">
+                    <button type="button"  class="button link-button" id="links-button">
+                        links
+                        <svg class="icon-arrow"><use href="#icon-arrow"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="aboutme">
+            <h1>About Me</h1>
+            <hr class="h">
+            <div class="section-main" id="aboutme">
+                <p class="p">
+                    If the website's appearance isn't conspicuous enough ... Hi! I am a passionate programmer who works with systems and algorithms of all kinds. I am most familiar with Python and C++, although I recently began exploring frontend and databases to prepare for this webpage and future projects.
+                    <br><br>
+                    Outside of CS, I enjoy music, design, and dexterity games.
+                </p>
+                <!-- <div class="button-outline">
+                    <a class="button" href = "" target="_blank" rel="noopener noreferrer">
+                        my resume
+                        <svg class="icon-href"><use href="#icon-href"/></svg>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+        <div class="section" id="projects">
+            <h1>Projects</h1>
+            <hr class="h">
+            <div class="section-main" id="projects-main">
+                <div class="project">
+                    <button type="button" class="project-banner">
+                        <div class="project-banner-block"></div>
+                        <div class="project-banner-main">
+                            <div class="project-banner-bar">
+                                <h1 class="project-banner-title">OXIDE</h1>
+                                <div class="shield shield-cpp">
+                                    <svg class="shield-icon"><use href="#icon-cpp"/></svg>
+                                    C++
+                                </div>
+                                <div class="shield shield-python">
+                                    <svg class="shield-icon"><use href="#icon-python"/></svg>
+                                    Python
+                                </div>
+                            </div>
+                            <p class="project-banner-desc">GPU Array Computing Library for MacOS</p>
+                        </div>
+                    </button>
+                    <div class="project-main">
+                        <div class="project-desc">
+                            PyTorch- and Numpy-like syntax integrated natively with the Metal Compute Pipeline. Through making this library, I continue to learn about the prodecures that optimize modern computing.
+                            <div class="button-outline button-outline-project">
+                                <a class="button" href="https://github.com/jasononono/oxide" target="_blank" rel="noopener noreferrer">
+                                    Github
+                                    <svg class="icon-href"><use href="#icon-href"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-desc">
+                            <div class="project-spec">Languages</div>
+                            <div class="project-specdesc">
+                                Python, C++, MSL
+                            </div>
+                            <div class="project-spec">Frameworks</div>
+                            <div class="project-specdesc">
+                                Metal, Nanobind, CMake
+                            </div>
+                            <div class="project-spec">Time</div>
+                            <div class="project-specdesc">
+                                June 2026 - Present
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bg" id="links-bg">
+            <div class="section" id="links">
+                <div id="links-bar">
+                    <a class="entry" target="_blank" rel="noopener noreferrer">
+                        <div class="entry-box">
+                            <svg class="icon-logo"><use href="#icon-discord"/></svg>
+                        </div>
+                        <div class="entry-desc">Discord (jasononono)</div>
+                    </a>
+                    <a class="entry" target="_blank" rel="noopener noreferrer">
+                        <div class="entry-box">
+                            <svg class="icon-logo-stroke"><use href="#icon-mail"/></svg>
+                        </div>
+                        <div class="entry-desc">cdliaowendi@gmail.com</div>
+                    </a>
+                    <hr class="h">
+                    <a class="entry a" href="https://github.com/jasononono" target="_blank" rel="noopener noreferrer">
+                        <div class="entry-box">
+                            <svg class="icon-logo"><use href="#icon-github"/></svg>
+                        </div>
+                        <div class="entry-desc">Github (jasononono)</div>
+                        <svg class="icon-href"><use href="#icon-href"/></svg>
+                    </a>
+                    <a class="entry a" href="https://devpost.com/jasononono" target="_blank" rel="noopener noreferrer">
+                        <div class="entry-box">
+                            <svg class="icon-logo"><use href="#icon-devpost"/></svg>
+                        </div>
+                        <div class="entry-desc">Devpost (jasononono)</div>
+                        <svg class="icon-href"><use href="#icon-href"/></svg>
+                    </a>
+                    <a class="entry a" href="https://dmoj.ca/user/jarr" target="_blank" rel="noopener noreferrer">
+                        <div class="entry-box">
+                            <svg class="icon-logo-stroke"><use href="#icon-star"/></svg>
+                        </div>
+                        <div class="entry-desc">DMOJ (jarr)</div>
+                        <svg class="icon-href"><use href="#icon-href"/></svg>
+                    </a>
+                </div>
+                <div id="graph-sim">
+                    <svg id="graph-edges" height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+                        <line class="graph-edge"/>
+                    </svg>
+                    <div class="graph-node"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
