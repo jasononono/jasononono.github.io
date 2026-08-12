@@ -292,14 +292,18 @@ window.addEventListener("mouseover", mouse_enter);
 window.addEventListener("blur", window_unload);
 window.addEventListener("visibilitychange", window_unload);
 
-function frame(currentTime) {
-    let dt = (currentTime - time) / 1000;
-    time = currentTime;
+let fps_target = 1000 / 120;
+let last_time = 0;
 
-    sim_resize();
-    grid_resize();
-    update(dt);
-    render(dt);
+function frame(currentTime) {
+    if (currentTime - last_time >= fps_target) {
+        let dt = (currentTime - last_time) / 1000;
+        last_time = currentTime;
+        sim_resize();
+        grid_resize();
+        update(dt);
+        render(dt);
+    }
     requestAnimationFrame(frame);
 }
 
